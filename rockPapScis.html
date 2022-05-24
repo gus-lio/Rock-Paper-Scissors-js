@@ -4,11 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Rock, Paper, Scissors</title>
 </head>
 <body>
+    <div class="container-play">
     <h1>Play Rock, Paper, Scissors.</h1>
-        <p>View the Console to See the Results.</p>
+        <div class="playBtns">
+            <button class = "picks" id="pickRock">ROCK</button>
+            <button class = "picks" id="pickPaper">PAPER</button>
+            <button class = "picks" id="pickScissors">SCISSORS</button>
+        </div>
+    </div>
+    <div class = "container-results">
+        Round 
+        <div class = "roundNumber" id="roundNumber">            
+        </div> 
+        <div class = "resultMessage">
+            <div id = "container-results">
+            </div>
+        </div>
+    </div>
+    
+    <div class = "scoreboard-container">
+        <div class = "usrScore">User Score 
+            <div class = "usrScoreBox">
+                <div id = "usrScore">
+                </div>
+            </div>
+        </div>
+        <div class = "compScore">Computer Score 
+            <div class = "compScoreBox">
+                <div id = "compScore">   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class = "endContainer">
+        <div class = "winLose" id = "winLose"></div>
+        <div class = "refresh" id = "refresh"></div>
+    </div>
+</div>
     <script src="javascript.js"></script>
 </body>
 </html>

@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    color: lightgreen;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.playBtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.picks {
+    background-color: rgb(66, 59, 59);
+    color: palegreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    min-width: 120px;
+}
+
+.container-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roundNumber {
+    min-height: 40px;
+    padding-top: 20px;
+}
+
+.resultMessage {
+    font-size: larger;
+    min-height: 40px;
+    min-width: 400px;
+    margin: 20px;
+    padding: 10px;
+    padding-top: 25px;
+    border: 3px solid;
+}
+
+.scoreboard-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.usrScore, .compScore {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 60px;
+    min-width: 180px;
+    border: 3px dotted;
+}
+.usrScoreBox, .compScoreBox {
+    font-size: 60px;
+    font-weight: 800;
+    min-width: 50px;
+    min-height: 80px;
+    margin: 10px;
+    /*border: 3px solid;*/
+}
+
+.endContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.winLose {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 20px;
+    min-height: 50px;
+}
+
+.refreshButton {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: xx-large;
+    padding: 16px;
+    color: black;
+    background-color: lightgreen;
+}
